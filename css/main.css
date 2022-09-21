@@ -1,0 +1,245 @@
+.bodymargin
+{
+    MARGIN: 0px
+}
+.topmenubar
+{
+    BACKGROUND-COLOR: #245abd;
+}
+.tablecoltitle
+{
+    PADDING-RIGHT: 1px;
+    PADDING-LEFT: 3px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 3px;
+    COLOR: yellow;
+    PADDING-TOP: 3px;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #00dddd;
+}
+.tablecoltitle A
+{
+    FONT-SIZE: 10pt;
+    COLOR: azure
+}
+.tablecolsubtitle
+{
+    BORDER-RIGHT: teal;
+    BORDER-TOP: teal;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    BACKGROUND-IMAGE: url(../images/rough.jpg);
+    BORDER-LEFT: teal;
+    COLOR: blue;
+    BORDER-BOTTOM: teal;
+    FONT-FAMILY: Arial
+}
+.tablecolsubtitle A
+{
+    COLOR: firebrick;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.tablecolsubtitle A:hover
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+.tablecolcaption
+{
+    PADDING-LEFT: 4px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    BORDER-BOTTOM: teal 1px solid;
+    FONT-FAMILY: Arial, Verdana;
+    BACKGROUND-COLOR: transparent
+}
+.tablecoldetail
+{
+    FONT-SIZE: 8pt;
+    BORDER-BOTTOM: teal 1px solid;
+    FONT-FAMILY: Verdana
+}
+.tablecoldetail A
+{
+    COLOR: darkblue
+}
+.tablecoldetail A:visited
+{
+    COLOR: darkmagenta
+}
+.tablecoldetail A:hover
+{
+    COLOR: darkslategray
+}
+.tablecoldetailselected
+{
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: darkgray 1px solid;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: slategray
+}
+.tablecoldetailselected A
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: slategray
+}
+.tablecoldetailselected A:visited
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: slategray
+}
+.tablecoldetailselected A:hover
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: slategray
+}
+.tablecoldetail2
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana
+}
+.tablecolmenuhead
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial;
+    HEIGHT: 25px;
+    BACKGROUND-COLOR: #444444
+}
+.tablecolmenudetail
+{
+    COLOR: white;
+    LINE-HEIGHT: 12px;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 8pt
+}
+.tablecolmenudetail A
+{
+    FONT-SIZE: 8pt;
+    COLOR: #ffffff;
+    LINE-HEIGHT: 12px;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+.tablecolmenudetail A:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: lightblue;
+    LINE-HEIGHT: 12px;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+
+.inputtext
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial
+}
+.inputtext2
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: khaki
+}
+.inputtext3
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: lavender
+}
+.errortext
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: red;
+    FONT-FAMILY: Verdana, Arial
+}
+.tableborder
+{
+    BORDER-RIGHT: 4px ridge;
+    BORDER-TOP: 4px ridge;
+    BORDER-LEFT: 4px ridge;
+    BORDER-BOTTOM: 4px ridge
+}
+.loginheader
+{
+    FONT: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+    HEIGHT: 25px;
+    COLOR: #ddff00;
+    BACKGROUND-COLOR: #ffcc00
+}
+.button
+{
+    FONT: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.logincontrols TD
+{
+    FONT: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.logincontrols INPUT
+{
+    FONT: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif
+}
+.button
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    BACKGROUND: url(../images/button_bg.gif) #eef0f2;
+    BORDER-LEFT: 1px outset;
+    CURSOR: hand;
+    COLOR: #000000;
+    BORDER-BOTTOM: 1px outset
+}
+.login_controls
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    BACKGROUND: #dee0e2;
+    BORDER-LEFT: 1px outset;
+    COLOR: #001f30;
+    BORDER-BOTTOM: 1px outset
+}
+.pop_dialog_overlay
+{
+    position: static;
+    top: 0px;
+    right: 0px;
+    bottom: 0;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    opacity: .15;
+    filter: alpha(opacity=15);
+    -moz-opacity: .15;
+    z-index: 1;
+    display: none;
+}
+.pop_dialog
+{
+    display: none;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 10%;
+    left: 10%;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: #ffffff;
+    border: 2px solid #ABABAB;
+    padding: 0px;
+    z-index: 1;
+    font-family: Verdana;
+    font-size: 10pt;
+}
